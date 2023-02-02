@@ -1,13 +1,27 @@
 package com.api.spring.clientes;
 
+import com.api.spring.clientes.model.entity.Cliente;
+import com.api.spring.clientes.model.repository.ClienteRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
 public class ClientesApplication {
+
+    @Bean
+    public CommandLineRunner run(@Autowired ClienteRepository repository){
+        return args -> {
+            Cliente cliente = Cliente.builder().cpf("01293817367").nome("fulano").build();
+            repository.save(cliente);
+        };
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(ClientesApplication.class, args);
 

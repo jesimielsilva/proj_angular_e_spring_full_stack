@@ -1,12 +1,18 @@
 package com.api.spring.clientes.model.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Cliente {
 
     @Id
@@ -19,7 +25,7 @@ public class Cliente {
     @Column(nullable = false, length = 11)
     private String cpf;
 
-    @Column
+    @Column(name = "data_cadastro")
     private LocalDate dataCadastro;
 
 
