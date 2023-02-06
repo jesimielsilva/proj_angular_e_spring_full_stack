@@ -14,14 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ClientesApplication {
 
-    @Bean
-    public CommandLineRunner run(@Autowired ClienteRepository repository){
-        return args -> {
-            Cliente cliente = Cliente.builder().cpf("01293817367").nome("fulano").build();
-            repository.save(cliente);
-        };
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(ClientesApplication.class, args);
 
