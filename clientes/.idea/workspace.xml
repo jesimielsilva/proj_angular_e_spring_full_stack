@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ApplicationControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/exception/ApiErros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/InternacionalizacaoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/InternacionalizacaoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/ClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/ClientesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ApplicationControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
