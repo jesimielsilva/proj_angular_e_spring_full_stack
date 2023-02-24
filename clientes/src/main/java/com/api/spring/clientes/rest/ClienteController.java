@@ -23,7 +23,7 @@ public class ClienteController {
     }
 
     @GetMapping
-    public List<Cliente> oberTodos(){
+    public List<Cliente> obterTodos(){
         return repository.findAll();
     }
 
