@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms'
 import { ServicePrestadoRoutingModule } from './service-prestado-routing.module';
 import { ServicePrestadoFormComponent } from './service-prestado-form/service-prestado-form.component';
 import { ServicePrestadoListComponent } from './service-prestado-list/service-prestado-list.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ServicePrestadoListComponent } from './service-prestado-list/service-pr
   imports: [
     CommonModule,
     ServicePrestadoRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ], exports: [
     ServicePrestadoFormComponent,
     ServicePrestadoListComponent

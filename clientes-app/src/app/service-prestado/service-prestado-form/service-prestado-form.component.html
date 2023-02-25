@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label>Cliente: </label>
-                    <select>
+                    <select class="form-control">
                         <option value="">selecione...</option>
                         <option *ngFor="let cliente of clientes" [ngValue]="cliente.id">
                             {{cliente.nome}}
