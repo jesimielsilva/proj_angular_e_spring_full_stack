@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/servico-prestados.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/servico-prestados.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/template/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/template/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
