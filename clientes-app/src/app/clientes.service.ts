@@ -37,6 +37,6 @@ export class ClientesService {
   }
 
   deletar(cliente: Cliente) : Observable<any> {
-    return this.http.delete<any>(`${this.apiURLBase}${cliente.id}`)
+    return this.http.delete<any>(`${this.apiURLBase}/${cliente.id}`)
   }
 }

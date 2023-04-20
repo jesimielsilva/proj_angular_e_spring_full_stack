@@ -13,7 +13,7 @@ export class ClientesListaComponent implements OnInit {
 
   clientes: Cliente[] = [];
   clienteSelecionado!: Cliente;
-  mensagemSucesso: String | undefined;
+  mensagemSucesso!: String;
   mensagemErro: String | undefined;
 
   constructor(private service: ClientesService,
@@ -38,7 +38,9 @@ export class ClientesListaComponent implements OnInit {
   deletarCliente(){
     this.service
     .deletar(this.clienteSelecionado)
-    .subscribe(response => {this.mensagemSucesso = 'Cliente deletado com sucesso!' ,
+    .subscribe(response =>     
+      { console.log(response);
+        this.mensagemSucesso = 'Cliente deletado com sucesso!' ,
     this.ngOnInit();
   },
     erro => this.mensagemErro = 'Ocorreu um erro ao deletar o cliente.'
