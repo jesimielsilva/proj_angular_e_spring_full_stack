@@ -2,6 +2,7 @@ package com.api.spring.clientes.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -22,15 +23,16 @@ public class SecurityConfig {
                 .httpBasic()
                 .and()
                 .authorizeHttpRequests()
+                .requestMatchers(HttpMethod.GET, "/api/clientes/**").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.POST, "/api/clientes").hasRole("USER")
+                .requestMatchers(HttpMethod.DELETE, "/api/clientes/**").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/clientes/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .csrf().disable();
 
         return http.build();
     }
-
-
-
 
     @Bean
     public PasswordEncoder getPasswordEncoder(){
