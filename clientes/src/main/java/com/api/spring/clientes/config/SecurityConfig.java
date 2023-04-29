@@ -24,7 +24,7 @@ public class SecurityConfig {
                 .and()
                 .authorizeHttpRequests()
                 .requestMatchers(HttpMethod.GET, "/api/clientes/**").hasRole("ADMIN")
-                .requestMatchers(HttpMethod.POST, "/api/clientes").hasRole("USER")
+                .requestMatchers(HttpMethod.POST, "/api/clientes").hasAnyRole("ADMIN","USER")
                 .requestMatchers(HttpMethod.DELETE, "/api/clientes/**").hasRole("ADMIN")
                 .requestMatchers(HttpMethod.PUT, "/api/clientes/**").hasRole("ADMIN")
                 .anyRequest().authenticated()

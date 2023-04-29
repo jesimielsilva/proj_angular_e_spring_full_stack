@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/enums/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/RoleModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
