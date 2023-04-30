@@ -30,7 +30,7 @@ public class UsuarioController {
         return ResponseEntity.ok(repository.findAll());
     }
 
-    @PostMapping
+    @PostMapping("/cadastrar")
     public ResponseEntity<UsuarioModel> salvarUser(@RequestBody @Valid UsuarioModel usuarioModel){
         usuarioModel.setPassword(encoder.encode(usuarioModel.getPassword()));
         return ResponseEntity.ok(repository.save(usuarioModel));

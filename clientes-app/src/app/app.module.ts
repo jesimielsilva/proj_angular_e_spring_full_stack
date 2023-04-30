@@ -13,12 +13,15 @@ import { ServicePrestadoModule } from './service-prestado/service-prestado.modul
 import { ServicoPrestadosService } from './servico-prestados.service';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { LayoutComponent } from './layout/layout.component';
+import { AuthService } from './auth.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { FormsModule } from '@angular/forms';
   ],
   providers: [
     ClientesService,
-    ServicoPrestadosService
+    ServicoPrestadosService,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
