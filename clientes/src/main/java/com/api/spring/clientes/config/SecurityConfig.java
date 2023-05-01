@@ -22,12 +22,14 @@ public class SecurityConfig {
         http
                 .httpBasic()
                 .and()
+                .cors()
+                .and()
                 .authorizeHttpRequests()
                 .requestMatchers(HttpMethod.GET, "/api/clientes/**").hasRole("ADMIN")
                 .requestMatchers(HttpMethod.POST, "/api/clientes").hasAnyRole("ADMIN","USER")
                 .requestMatchers(HttpMethod.DELETE, "/api/clientes/**").hasRole("ADMIN")
                 .requestMatchers(HttpMethod.PUT, "/api/clientes/**").hasRole("ADMIN")
-                .requestMatchers(HttpMethod.POST, "/api/usuario").permitAll()
+                .requestMatchers(HttpMethod.POST, "/api/usuario/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .csrf().disable();

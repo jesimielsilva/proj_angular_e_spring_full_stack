@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../clientes-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../clientes-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-form/clientes-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-form/clientes-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-lista/clientes-lista.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-lista/clientes-lista.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/clientes/clientes-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-form/service-prestado-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-form/service-prestado-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-list/service-prestado-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/service-prestado/service-prestado-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clientes-app/src/app/template/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/src/app/template/sidebar/sidebar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,5 +113,21 @@
       <updated>1675207972061</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
