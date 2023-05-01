@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../clientes-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clientes-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/util/UsuarioCadastradoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,21 +120,5 @@
       <updated>1675207972061</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
