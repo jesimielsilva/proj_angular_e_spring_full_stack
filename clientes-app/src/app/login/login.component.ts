@@ -47,6 +47,9 @@ export class LoginComponent implements OnInit {
         .salvar(usuarioModel)
         .subscribe(response =>{
           this.mensagemSucesso = "Cadastro realizado com sucesso! Efetue o login."; 
+          this.cadastrando = false;
+          this.username = '';
+          this.password = '';
           this.errors = [];         
         }, errorResponse => {
           this.mensagemSucesso = '';           

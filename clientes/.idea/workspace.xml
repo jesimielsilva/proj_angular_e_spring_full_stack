@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b40f1c-2452-4a4f-8541-15826fdbf9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/util/UsuarioCadastradoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/entity/UsuarioModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/model/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/entity/UsuarioModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/model/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/rest/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/services/UsuarioDetailsSerivceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/rest/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/util/UsuarioCadastradoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/spring/clientes/util/UsuarioCadastradoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/util/UsuarioCadastradoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/spring/clientes/util/UsuarioCadastradoException.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
