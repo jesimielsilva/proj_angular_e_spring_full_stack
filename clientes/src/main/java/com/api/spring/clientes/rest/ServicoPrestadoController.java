@@ -7,12 +7,13 @@ import com.api.spring.clientes.model.repository.ClienteRepository;
 import com.api.spring.clientes.model.repository.ServicoPrestadpRepository;
 import com.api.spring.clientes.rest.dto.ServicoPrestadoDTO;
 import com.api.spring.clientes.util.BigDecimalConverter;
-import jakarta.validation.Valid;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;

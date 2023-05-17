@@ -24,10 +24,18 @@ export class LoginComponent implements OnInit {
   ) { }
 
   ngOnInit(): void { 
+
   }
 
   onSubmit(){
-    this.router.navigate(['/home'])
+    this.authService
+          .tentarLogar(this.username, this.password)
+          .subscribe(response => {
+            console.log(response)
+            this.router.navigate(['/home'])
+          }, errorResponse => {
+            this.errors = ['Usuário e/ou senha incorretos.']
+          });    
   }
 
   preparaCadastrar(event: { preventDefault: () => void; }){
